@@ -7,7 +7,7 @@ Put VectorMath.cpp/.h and MatrixMath.cpp/.h in your code base to use.
 Test code is in main.cpp.
 Run make to compile and then run ./main.exe to run the test.
 
-##FAQ
+## FAQ
 #### Why not further modularize this?
 Because most of these classes are used in conjunction with others (eg. Matrix4 with Vector4) . Also helps to keep the code compact and with fewer files to compile.
 
