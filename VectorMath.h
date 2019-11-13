@@ -3,6 +3,9 @@
 
 #include <iostream>
 #include <assert.h>
+#include <math.h>
+#include <stdlib.h>
+#include <cstring>
 
 #define PI 3.14159265358979323846f
 #define ZERO_ERROR_RANGE 1e-07f

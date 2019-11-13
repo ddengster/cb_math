@@ -297,7 +297,7 @@ public:
   void GetRotationToAxisDeg(float& angledeg, Vector3& axisvector);
 
   inline void Normalise() { 
-    float magnitude = std::sqrt(w * w + x * x + y * y + z * z); 
+    float magnitude = sqrt(w * w + x * x + y * y + z * z); 
     w = w / magnitude; x = x / magnitude; y = y / magnitude; z = z / magnitude; 
   }
 
